@@ -1,0 +1,12 @@
+{
+  "name": "rural-school-attendance",
+  "version": "1.0.0",
+  "description": "This project is a web application designed for rural school attendance management with the following key features:\r - Face recognition attendance using built-in camera (MediaPipe)\r - Offline-first data storage (IndexedDB on client, SQLite on server)\r - Automatic synchronization with government APIs (PM POSHAN, SSA, State portals)\r - Multi-language support (Hindi, English, Punjabi, etc.)\r - Parent SMS notifications (Twilio integration)\r - UI optimized for low-end Android devices\r - Extensible architecture for future features like voice messaging, parent apps, analytics dashboards",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
