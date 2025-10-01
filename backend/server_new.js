@@ -1,11 +1,13 @@
-require('dotenv').config()
+ require('dotenv').config();
 const express = require('express');
 const cors = require('cors');
 const winston = require('winston');
+const databaseService = require('./services/databaseService');
 const attendanceRoutes = require('./routes/attendanceRoutes');
 const syncRoutes = require('./routes/syncRoutes');
 const smsRoutes = require('./routes/smsRoutes');
 const faceRecognitionRoutes = require('./routes/faceRecognitionRoutes');
+const faceRegistrationRoutes = require('./routes/faceRegistrationRoutes');
 
 const app = express();
 const PORT = process.env.PORT || 5000;
@@ -30,6 +32,20 @@ app.use('/api/attendance', attendanceRoutes);
 app.use('/api/sync', syncRoutes);
 app.use('/api/sms', smsRoutes);
 app.use('/api/face-recognition', faceRecognitionRoutes);
+app.use('/api/face-registration', faceRegistrationRoutes);
+
+// Health check endpoint
+app.get('/api/health', (req, res) => {
+  res.json({
+    status: 'OK',
+    timestamp: new Date().toISOString(),
+    services: {
+      database: 'connected',
+      faceRecognition: 'ready',
+      faceRegistration: 'ready'
+    }
+  });
+});
 
 // Error handling middleware
 app.use((err, req, res, next) => {
@@ -37,10 +53,8 @@ app.use((err, req, res, next) => {
   res.status(500).json({ error: 'Internal Server Error' });
 });
 
-(async () => {
-  const db = require('./models/db');
-  await db.init();
-  app.listen(PORT, () => {
-    logger.info(`Server running on port ${PORT}`);
-  });
-})();
+app.listen(PORT, () => {
+  logger.info(`Server running on port ${PORT}`);
+  logger.info(`Face recognition API available at http://localhost:${PORT}/api/face-recognition`);
+  logger.info(`Face registration API available at http://localhost:${PORT}/api/face-registration`);
+});

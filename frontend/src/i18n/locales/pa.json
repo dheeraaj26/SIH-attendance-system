@@ -1,0 +1,34 @@
+{
+  "dashboard": {
+    "title": "ਸਕੂਲ ਹਾਜ਼ਰੀ ਡੈਸ਼ਬੋਰਡ",
+    "attendanceStats": "ਹਾਜ਼ਰੀ ਅੰਕੜੇ",
+    "totalStudents": "ਕੁਲ ਵਿਦਿਆਰਥੀ",
+    "presentToday": "ਅੱਜ ਹਾਜ਼ਰ",
+    "markAttendance": "ਹਾਜ਼ਰੀ ਮਾਰਕ ਕਰੋ",
+    "syncStatus": "ਸਿੰਕ ਸਥਿਤੀ",
+    "lastSync": "ਆਖਰੀ ਸਿੰਕ",
+    "syncNow": "ਹੁਣ ਸਿੰਕ ਕਰੋ",
+    "recentActivity": "ਹਾਲ ਹੀ ਦੀ ਗਤਿਵਿਧੀ",
+    "activityLog": "ਗਤਿਵਿਧੀ ਲੌਗ"
+  },
+  "attendanceCamera": {
+    "title": "ਹਾਜ਼ਰੀ ਕੈਮਰਾ",
+    "cameraOff": "ਕੈਮਰਾ ਬੰਦ ਹੈ",
+    "startCamera": "ਕੈਮਰਾ ਸ਼ੁਰੂ ਕਰੋ",
+    "detectFace": "ਚਿਹਰਾ ਪਛਾਣੋ",
+    "stopCamera": "ਕੈਮਰਾ ਬੰਦ ਕਰੋ",
+    "processing": "ਪ੍ਰੋਸੈਸਿੰਗ...",
+    "faceDetected": "ਚਿਹਰਾ ਸਫਲਤਾਪੂਰਵਕ ਪਛਾਣਿਆ ਗਿਆ!",
+    "noFaceDetected": "ਕੋਈ ਚਿਹਰਾ ਨਹੀਂ ਮਿਲਿਆ",
+    "detectionError": "ਪਛਾਣ ਗਲਤੀ",
+    "recognizedStudents": "ਪਛਾਣੇ ਗਏ ਵਿਦਿਆਰਥੀ",
+    "noStudents": "ਅਜੇ ਤੱਕ ਕੋਈ ਵਿਦਿਆਰਥੀ ਨਹੀਂ ਪਛਾਣਿਆ ਗਿਆ",
+    "rollNumber": "ਰੋਲ ਨੰਬਰ",
+    "markPresent": "ਹਾਜ਼ਰ ਮਾਰਕ ਕਰੋ",
+    "helpTooltip": "ਮਦਦ ਲਈ ਕਲਿੱਕ ਕਰੋ"
+  },
+  "camera": {
+    "error": "ਕੈਮਰਾ ਐਕਸੈਸ ਅਸਵੀਕਾਰਿਤ ਜਾਂ ਉਪਲਬਧ ਨਹੀਂ",
+    "processingError": "ਚਿੱਤਰ ਪ੍ਰੋਸੈਸਿੰਗ ਵਿੱਚ ਗਲਤੀ"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "dashboard": {
+    "title": "स्कूल उपस्थिति डैशबोर्ड",
+    "attendanceStats": "उपस्थिति आँकड़े",
+    "totalStudents": "कुल छात्र",
+    "presentToday": "आज उपस्थित",
+    "markAttendance": "उपस्थिति दर्ज करें",
+    "syncStatus": "सिंक स्थिति",
+    "lastSync": "अंतिम सिंक",
+    "syncNow": "अभी सिंक करें",
+    "recentActivity": "हाल की गतिविधि",
+    "activityLog": "गतिविधि लॉग"
+  },
+  "attendanceCamera": {
+    "title": "उपस्थिति कैमरा",
+    "cameraOff": "कैमरा बंद है",
+    "startCamera": "कैमरा शुरू करें",
+    "detectFace": "चेहरा पहचानें",
+    "stopCamera": "कैमरा बंद करें",
+    "processing": "प्रोसेसिंग...",
+    "faceDetected": "चेहरा सफलतापूर्वक पहचाना गया!",
+    "noFaceDetected": "कोई चेहरा नहीं मिला",
+    "detectionError": "पहचान त्रुटि",
+    "recognizedStudents": "पहचाने गए छात्र",
+    "noStudents": "अभी तक कोई छात्र नहीं पहचाना गया",
+    "rollNumber": "रोल नंबर",
+    "markPresent": "उपस्थित मार्क करें",
+    "helpTooltip": "मदद के लिए क्लिक करें"
+  },
+  "camera": {
+    "error": "कैमरा एक्सेस अस्वीकृत या उपलब्ध नहीं",
+    "processingError": "छवि प्रोसेसिंग में त्रुटि"
+  }
+}

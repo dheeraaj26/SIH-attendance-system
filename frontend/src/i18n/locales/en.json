@@ -1,0 +1,34 @@
+{
+  "dashboard": {
+    "title": "School Attendance Dashboard",
+    "attendanceStats": "Attendance Statistics",
+    "totalStudents": "Total Students",
+    "presentToday": "Present Today",
+    "markAttendance": "Mark Attendance",
+    "syncStatus": "Sync Status",
+    "lastSync": "Last Sync",
+    "syncNow": "Sync Now",
+    "recentActivity": "Recent Activity",
+    "activityLog": "Activity Log"
+  },
+  "attendanceCamera": {
+    "title": "Attendance Camera",
+    "cameraOff": "Camera is off",
+    "startCamera": "Start Camera",
+    "detectFace": "Detect Face",
+    "stopCamera": "Stop Camera",
+    "processing": "Processing...",
+    "faceDetected": "Face detected successfully!",
+    "noFaceDetected": "No face detected",
+    "detectionError": "Detection error",
+    "recognizedStudents": "Recognized Students",
+    "noStudents": "No students recognized yet",
+    "rollNumber": "Roll Number",
+    "markPresent": "Mark Present",
+    "helpTooltip": "Click for help"
+  },
+  "camera": {
+    "error": "Camera access denied or not available",
+    "processingError": "Error processing image"
+  }
+}
